@@ -2,9 +2,10 @@ package pe.njgconsulting;
 
 import java.time.LocalDateTime;
 import java.util.Comparator;
-import java.util.Date;
 import java.util.List;
+import java.util.Random;
 import java.util.function.*;
+import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,6 +68,6 @@ public class Main {
         };
 
         System.out.println("binaryOperator composite:::: " + binaryOperator2.apply(15, 5));
-
     }
+    
 }

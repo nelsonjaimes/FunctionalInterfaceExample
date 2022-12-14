@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="StramOptionalsFuncionalInterfaces" />
+        <module name="FunctionalInterfaceExample" />
       </profile>
     </annotationProcessing>
   </component>
